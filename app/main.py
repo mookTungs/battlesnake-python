@@ -39,18 +39,30 @@ def move():
     
     x = random.randint(1, 4)
     if(x = 1)
-        'move': 'north'   
+        return{
+            'move': 'north' 
+            'taunt': 'battlesnake-python!'
+        }    
     elif(x = 2)
-        'move': 'south'
+        return{
+            'move': 'south'
+            'taunt': 'battlesnake-python!'
+        }    
     elif(x = 3)
-        'move': 'east'
+        return{
+            'move': 'east'
+            'taunt': 'battlesnake-python!'
+        }    
     else
-        'move': 'west'
+        return{
+            'move': 'west'
+            'taunt': 'battlesnake-python!'
+        }    
     
-    return {
-        'move'
-        'taunt': 'battlesnake-python!'
-    }
+    #return {
+    #    'move'
+    #    'taunt': 'battlesnake-python!'
+    #}
 
 
 @bottle.post('/end')
