@@ -56,11 +56,13 @@ def move():
                 'move': 'east',
                 'taunt': 'battlesnake-python!'
             }
-        else:
+        elif x == 4:
             return {
                 'move': 'west',
                 'taunt': 'battlesnake-python!'
             }
+        else:
+            continue
 
     
     #return {
