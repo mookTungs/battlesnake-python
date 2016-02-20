@@ -39,8 +39,8 @@ def move():
     #x = random.randint(1, 4)
     
     return {
-        'move' : 'north'
-        'taunt' : 'battlesnake-python!'
+        'move': 'north'
+        'taunt': 'battlesnake-python!'
     }
 
 
