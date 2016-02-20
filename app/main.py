@@ -36,9 +36,19 @@ def move():
     data = bottle.request.json
 
     # TODO: Do things with data
-
+    
+    x = random.randint(1, 4)
+    if(x = 1)
+        'move': 'north'   
+    elif(x = 2)
+        'move': 'south'
+    elif(x = 3)
+        'move': 'east'
+    else
+        'move': 'west'
+    
     return {
-        'move': 'north',
+        'move'
         'taunt': 'battlesnake-python!'
     }
 
