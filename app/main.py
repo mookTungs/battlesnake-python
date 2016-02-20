@@ -38,8 +38,9 @@ def move():
     data = bottle.request.json
 
     # TODO: Do things with data
-    head = data.coords[0]
+   
     while(True):
+        head = data.coords[0]
         x = randomMove()
         if x == 1 and head[0] != 0:
             return {
