@@ -1,6 +1,5 @@
 import bottle
 import os
-import random
 
 @bottle.route('/static/<path:path>')
 def static(path):
@@ -41,7 +40,7 @@ def move():
     
     return {
         'move' : 'north'
-        'taunt': 'battlesnake-python!'
+        'taunt' : 'battlesnake-python!'
     }
 
 
