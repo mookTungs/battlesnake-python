@@ -37,7 +37,7 @@ def move():
 
     # TODO: Do things with data
     
-    x = random.randint(1, 4)
+    #x = random.randint(1, 4)
     
     return {
         'move' : 'north'
