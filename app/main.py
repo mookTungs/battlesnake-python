@@ -36,7 +36,7 @@ def move():
     data = bottle.request.json
 
     # TODO: Do things with data
-    head[1] = data.coor[1]
+    head = data.coords[0]
     x = random.randint(1, 4)
     if x == 1:
         return {
