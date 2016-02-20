@@ -30,6 +30,8 @@ def start():
         'taunt': 'battlesnake-python!'
     }
 
+def randomMove():
+    return random.randomInt(1, 4)
 
 @bottle.post('/move')
 def move():
@@ -37,27 +39,28 @@ def move():
 
     # TODO: Do things with data
     head = data.coords[0]
-    x = random.randint(1, 4)
-    if x == 1:
-        return {
-            'move': 'north',
-            'taunt': 'battlesnake-python!'
-        }
-    elif x == 2:
-        return {
-            'move': 'south',
-            'taunt': 'battlesnake-python!'
-        }
-    elif x == 3:
-        return {
-            'move': 'east',
-            'taunt': 'battlesnake-python!'
-        }
-    else:
-        return {
-            'move': 'west',
-            'taunt': 'battlesnake-python!'
-        }
+    while(True):
+        x = randomMove()
+        if x == 1 and head[0] != 0
+            return {
+                'move': 'north',
+                'taunt': 'battlesnake-python!'
+            }
+        elif x == 2:
+            return {
+                'move': 'south',
+                'taunt': 'battlesnake-python!'
+            }
+        elif x == 3:
+            return {
+                'move': 'east',
+                'taunt': 'battlesnake-python!'
+            }
+        else:
+            return {
+                'move': 'west',
+                'taunt': 'battlesnake-python!'
+            }
 
     
     #return {
