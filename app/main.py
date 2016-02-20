@@ -38,7 +38,7 @@ def move():
     # TODO: Do things with data
    
     while(True):
-        head = data.snakes.coords[0]
+        head = snakes.coords
         x = random.randomInt(1, 4)
         if x == 1 and head[0] != 0:
             return {
