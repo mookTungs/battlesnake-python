@@ -38,7 +38,7 @@ def move():
     # TODO: Do things with data
    
     while(True):
-        head = data.coords[0]
+        head = data.coords
         x = random.randomInt(1, 4)
         if x == 1 and head[0] != 0:
             return {
