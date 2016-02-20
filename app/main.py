@@ -41,7 +41,7 @@ def move():
     head = data.coords[0]
     while(True):
         x = randomMove()
-        if x == 1 and head[0] != 0
+        if x == 1 and head[0] != 0:
             return {
                 'move': 'north',
                 'taunt': 'battlesnake-python!'
