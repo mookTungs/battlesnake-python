@@ -38,17 +38,17 @@ def move():
     # TODO: Do things with data
     
     x = random.randint(1, 4)
-    if(x = 1)
+    if(x == 1)
         return{
             'move': 'north' 
             'taunt': 'battlesnake-python!'
         }    
-    elif(x = 2)
+    elif(x == 2)
         return{
             'move': 'south'
             'taunt': 'battlesnake-python!'
         }    
-    elif(x = 3)
+    elif(x == 3)
         return{
             'move': 'east'
             'taunt': 'battlesnake-python!'
